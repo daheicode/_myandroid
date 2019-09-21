@@ -35,8 +35,6 @@ class TestAdapter extends CommonAdapter<String> {
                 final ArrayList<String> datas=new ArrayList<>();
                 hashMap.put(position+"",datas);
                 activity.test(views,datas);
-
-
             }
         }*/
         if(hashMap.get(position+"")!=null){
